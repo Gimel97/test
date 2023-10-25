@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_top">
+                <a href="/index.html" class="logo">
+                    <img src="/img/logo-1.svg" alt="logo">
+                </a>
+                <nav class="menu">
+                    <div class="burger_menu">
+                        <img src="/img/hm.svg" alt="#">
+                    </div>
+                    <ul class="header_menu">
+                        <li>
+                            <a href="/index.html">Главная</a>
+                            <a href="/gallery/gallery.html">Галерея</a>
+                            <a href="/projects/projects.html">Проекты</a>
+                            <a href="/certificates/certificates.html">Сертификаты</a>
+                            <a href="/contacts/contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>  
+            </div>
+            <div class="header_content">
+                <div class="content_title">
+                    <h1>Project</h1>
+                    <h2>Apartment</h2>
+                </div>
+                <div class="content_images">
+                    <img src="/img/title.png" class="title_img" alt="title" >
+                    <div class="btn_header">
+                        <a href="/gallery/gallery.html" ><p>ВЗГЛЯНУТЬ <img src="/img/arrow.svg" class="arrow" alt=""></p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="cookie_note">
+        <p>
+            Мы используем файлы cookies для улучшения работы сайта. Оставаясь на нашем сайте, вы соглашаетесь с условиями использования файлов cookies. Чтобы ознакомиться с нашими Положениями о конфиденциальности и об использовании файлов cookie, <a href="#" target="_blank">нажмите здесь</a>
+        </p>
+        <button class="button cookie_accept btn btn-primary btn-sm">Я согласен</button>
+    </div>
+    <div class="container_about">
+        <div class="about_img">
+            <div class="images">
+                <img src="/img/about1.jpg" class="about_one" alt="#">
+                <img src="/img/about2.jpg" class="about_two" alt="#">
+            </div>
+            <div class="image">
+                <img src="/img/about3.jpg" alt="#">
+            </div>
+        </div>
+        <div class="about_content">
+            <h3>О компании</h3>
+            <p>Архитектурное бюро «Digital Project» всегда стремится применять в своих проектах новейшие достижения мировой архитектуры и дизайна. Проектируя для конкретных людей, мы материализуем их собственное видение идеального пространства, их мечты и желания.
+                Проекты нашей студии — это итог творческого союза архитекторов с заказчиком, итог совместного размышления. И поэтому среди наших работ Вы не найдете двух одинаковых зданий или интерьеров.</p>
+            <div class="btn_content">
+                <a href="/form/form.html"><p>ЗАКАЗАТЬ <img src="/img/arrow.svg" class="arrow" alt=""></p></a>
+            </div>  
+        </div>
+    </div>
+    <div class="main_tasks">
+        <h3>Основные задачи</h3>
+        <div class="tasks">
+            <div class="one">
+                <img src="/img/one.png" alt="#">
+                <p>Создание комфортных условий и повышение качества обслуживания клиентов</p>
+            </div>
+            <div class="two">
+                <img src="/img/two.png" alt="#">
+                <p>Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</p>
+            </div>
+        </div>
+    </div>
+    <div class="feedback">
+        <h3>Связаться с нами</h3>
+        <div class="form_feedback">
+            <form action="#" id="myForm">
+                <div class="input-box">
+                    <input type="text" placeholder="Имя" id="name">
+                </div>
+                <div class="input-box">
+                    <input type="phone" placeholder="Номер телефона" class="tel" id="telephone">
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="E-mail" id="mail">
+                </div>
+                <div class="input-box">
+                    <textarea placeholder="Сообщение" id="message"></textarea>
+                </div>
+            </form>
+            <img src="img/feedback.png" alt="#">
+        </div>
+        <div class="privacy">
+            <input type="checkbox" class="checkbox">
+            <a href="https://quizzickle.com/privacy_txt.html"><p class="privacy">I accept Privacy policy</p></a>
+        </div> 
+        <a href="/success/success.html"><p class="submit" onclick="send()" >ОТПРАВИТЬ <img src="/img/arrow-2.svg" class="arrow" alt=""></p></a>
+    </div>
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="footer_logo">
+                <a href="/index.html" class="logo">
+                    <img src="/img/logo-2.svg" alt="">
+                </a>
+            </div>
+            <div class="footer_info">
+                <p>Информация</p>
+                <nav class="footer_menu">
+                    <ul>
+                        <li>
+                            <a href="/index.html">Главная</a>
+                            <a href="/gallery/gallery.html">Галерея</a>
+                            <a href="/projects/projects.html">Проекты</a>
+                            <a href="/certificates/certificates.html">Сертификаты</a>
+                            <a href="/contacts/contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </nav> 
+            </div>
+            <div class="footer_contacts">
+                <p class="contact">Контакты</p>
+                <div class="address">
+                    <a href="https://yandex.by/maps/-/CDa0YTzY" class="maps"> 
+                        <img src="/img/location.svg" alt="">
+                        <p>220024, Республика Беларусь, г. Минск, ул. Кижеватова, 62-114</p>
+                    </a>
+                </div>
+                <div class="phone">
+                    <a href="tel:+375442502458" class="number">
+                        <img src="/img/phone.svg" alt="">
+                        <p>+375 (44) 250-24-58</p>
+                    </a>
+                </div>
+                <div class="mail">
+                    <a href="mailto:support@domain.com" class="email">
+                        <img src="/img/mail.svg" alt="">
+                        <p>support@domain.com</p>
+                    </a>
+                </div>
+            </div>
+            <div class="social">
+                <p>Социальные сети</p>
+                <div class="social_icon">
+                    <a href="https://ru-ru.facebook.com/"><img src="/img/fb.svg" alt="#"></a>
+                    <a href="https://twitter.com/"><img src="/img/twitter.svg" alt="#"></a>
+                    <a href="https://www.linkedin.com/"><img src="/img/linkedin.svg" alt="#"></a>
+                    <a href="https://ru.pinterest.com/"><img src="/img/pinterest.svg" alt="#"></a>
+                </div>
+            </div>
+        </div>
+        <p class="line"></p>
+        <div class="footer_copyright">
+            <p>© 2019 Digital Project. Все права защищены.</p>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
